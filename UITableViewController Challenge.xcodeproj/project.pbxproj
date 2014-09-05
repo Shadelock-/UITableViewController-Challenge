@@ -17,12 +17,12 @@
 		CF38F47719B99AB300DD95A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF38F47619B99AB300DD95A7 /* Default@2x.png */; };
 		CF38F47919B99AB300DD95A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF38F47819B99AB300DD95A7 /* Default-568h@2x.png */; };
 		CF38F47C19B99AB300DD95A7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF38F47A19B99AB300DD95A7 /* MainStoryboard.storyboard */; };
-		CF38F47F19B99AB300DD95A7 /* ETOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38F47E19B99AB300DD95A7 /* ETOViewController.m */; };
 		CF38F48719B99AB400DD95A7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF38F48619B99AB400DD95A7 /* SenTestingKit.framework */; };
 		CF38F48819B99AB400DD95A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF38F46219B99AB200DD95A7 /* UIKit.framework */; };
 		CF38F48919B99AB400DD95A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF38F46419B99AB200DD95A7 /* Foundation.framework */; };
 		CF38F49119B99AB400DD95A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF38F48F19B99AB400DD95A7 /* InfoPlist.strings */; };
 		CF38F49419B99AB400DD95A7 /* UITableViewController_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38F49319B99AB400DD95A7 /* UITableViewController_ChallengeTests.m */; };
+		CF38F49F19B9A0F800DD95A7 /* ETOTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38F49E19B9A0F800DD95A7 /* ETOTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +50,14 @@
 		CF38F47619B99AB300DD95A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CF38F47819B99AB300DD95A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CF38F47B19B99AB300DD95A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CF38F47D19B99AB300DD95A7 /* ETOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETOViewController.h; sourceTree = "<group>"; };
-		CF38F47E19B99AB300DD95A7 /* ETOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETOViewController.m; sourceTree = "<group>"; };
 		CF38F48519B99AB400DD95A7 /* UITableViewController ChallengeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController ChallengeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF38F48619B99AB400DD95A7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CF38F48E19B99AB400DD95A7 /* UITableViewController ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		CF38F49019B99AB400DD95A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF38F49219B99AB400DD95A7 /* UITableViewController_ChallengeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableViewController_ChallengeTests.h; sourceTree = "<group>"; };
 		CF38F49319B99AB400DD95A7 /* UITableViewController_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_ChallengeTests.m; sourceTree = "<group>"; };
+		CF38F49D19B9A0F800DD95A7 /* ETOTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETOTableViewController.h; path = ../ETOTableViewController.h; sourceTree = "<group>"; };
+		CF38F49E19B9A0F800DD95A7 /* ETOTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETOTableViewController.m; path = ../ETOTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +117,11 @@
 		CF38F46819B99AB200DD95A7 /* UITableViewController Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				CF38F47A19B99AB300DD95A7 /* MainStoryboard.storyboard */,
+				CF38F49D19B9A0F800DD95A7 /* ETOTableViewController.h */,
+				CF38F49E19B9A0F800DD95A7 /* ETOTableViewController.m */,
 				CF38F47119B99AB300DD95A7 /* ETOAppDelegate.h */,
 				CF38F47219B99AB300DD95A7 /* ETOAppDelegate.m */,
-				CF38F47A19B99AB300DD95A7 /* MainStoryboard.storyboard */,
-				CF38F47D19B99AB300DD95A7 /* ETOViewController.h */,
-				CF38F47E19B99AB300DD95A7 /* ETOViewController.m */,
 				CF38F46919B99AB200DD95A7 /* Supporting Files */,
 			);
 			path = "UITableViewController Challenge";
@@ -273,7 +273,7 @@
 			files = (
 				CF38F46F19B99AB300DD95A7 /* main.m in Sources */,
 				CF38F47319B99AB300DD95A7 /* ETOAppDelegate.m in Sources */,
-				CF38F47F19B99AB300DD95A7 /* ETOViewController.m in Sources */,
+				CF38F49F19B9A0F800DD95A7 /* ETOTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

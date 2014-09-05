@@ -1,5 +1,5 @@
 //
-//  ETOViewController.h
+//  ETOTableViewController.h
 //  UITableViewController Challenge
 //
 //  Created by Ethan Olaussen on 5/09/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ETOViewController : UIViewController
+@interface ETOTableViewController : UITableViewController
 
 @end
